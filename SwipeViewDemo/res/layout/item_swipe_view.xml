@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_card" >
+
+    <ImageView
+        android:id="@+id/imgBike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/action_image"
+        android:src="@drawable/img_bike_1" />
+
+    <ImageView
+        android:id="@+id/imgSwipeLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/action_image"
+        android:src="@drawable/img_swipe_like"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imgSwipeNope"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/action_image"
+        android:src="@drawable/img_swipe_nope"
+        android:visibility="gone" />
+
+</RelativeLayout>
