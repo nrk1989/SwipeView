@@ -1,7 +1,7 @@
 SwipeView
 ==========
 
-SwipeView for android to like or dislike the items.
+SwipeView for android to like or dislike the items. A Tinder-like Android library to create the swipeable cards. 
 
 Overview
 --------
